@@ -19,6 +19,8 @@ function uusiListaElementti(event) {
     // Päivitetään näkymä
     paivitaNimiLista();
 
+    //console.log("Nykyiset nimet:", nimet);
+
     inputKentta.value = '';
 }
 

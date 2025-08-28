@@ -29,6 +29,8 @@ function kysyNimet() {
         nimet.push(nimi.trim());
     }
 
+        //console.log("Annetut nimet:", nimet);
+
     for (const nimi of nimet) {
         const li = document.createElement('li');
         li.textContent = nimi;
