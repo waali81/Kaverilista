@@ -1,6 +1,9 @@
 function kysyNimet() {
     const nimet = [];
 
+    const lista = document.getElementById('nimiLista');
+    lista.innerHTML = ''; // Tyhjennä lista
+
     for (let i = 1; i <= 10; i++) {
         let nimi;
 
@@ -10,7 +13,7 @@ function kysyNimet() {
 
             // Käyttäjä painoi Peruuta -> lopetetaan nimeäminen
             if (nimi === null) {
-                break;
+                return;
             }
 
             // Kysytään uudestaan
@@ -30,10 +33,6 @@ function kysyNimet() {
 
         nimet.push(nimi.trim());
     }
-
-    // Näytetään nimet listana sivulla
-    const lista = document.getElementById('nimiLista');
-    lista.innerHTML = ''; // Tyhjennä aiemmat tulokset
 
     for (const nimi of nimet) {
         const li = document.createElement('li');
