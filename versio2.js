@@ -32,6 +32,8 @@ function poistaNimiListasta() {
     }
 
     let nimiLoytyi = false;
+
+    //käydään nimet-lista läpi, jos nimi listalla se poistetaan
     for (let i = 0; i < nimet.length; i++) {
         if (nimet[i] === nimiPoistettava) {
             nimet.splice(i, 1);
@@ -54,7 +56,7 @@ function aakkosJarjestys() {
     paivitaNimiLista();
 }
 
-// HTML-listan päivitys arraylla
+// HTML-listan päivitys arraylla ja aakkosjärjestys suomenkielen mukaan
 function paivitaNimiLista() {
     let kaveriLista = document.getElementById('kaveriLista');
     kaveriLista.innerHTML = '';
