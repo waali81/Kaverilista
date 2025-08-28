@@ -26,11 +26,6 @@ function kysyNimet() {
             }
         }
 
-        // Jos käyttäjä painoi peruuta, lopetetaan myös pääsilmukka
-        if (nimi === null) {
-            break;
-        }
-
         nimet.push(nimi.trim());
     }
 
