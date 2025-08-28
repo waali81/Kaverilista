@@ -1,0 +1,60 @@
+body {
+    font-family: "Comic Sans MS";
+    background-color: #f0f8ff; 
+    color: #333333;
+    margin: 2rem;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:#ff6347;
+}
+
+h1 {
+    color: #ff6347;
+    text-shadow: 1px 1px 2px #ffa07a;
+}
+
+button {
+    font-family: "Comic Sans MS";
+    background-color: #ffcc00;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffaa00;
+    color: white;
+}
+
+input[type="text"] {
+    font-family: "Comic Sans MS";
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+input[type="submit"] {
+    font-family: "Comic Sans MS";
+    background-color: #ffcc00;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffaa00;
+    color: white;
+}
