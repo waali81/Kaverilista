@@ -36,4 +36,5 @@ function kysyNimet() {
         }
 }
 
+//Tapahtumakuuntelija
 document.getElementById('nimiButtoni').addEventListener('click', kysyNimet);
