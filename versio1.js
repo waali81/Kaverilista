@@ -11,7 +11,7 @@ function kysyNimet() {
         while (true) {
             nimi = prompt(`Anna ${i} kaverin nimi:`);
 
-            // Käyttäjä painoi Peruuta -> lopetetaan nimeäminen
+            // Käyttäjä painoi Peruuta, lopetetaan nimeäminen
             if (nimi === null) {
                 return;
             }
@@ -26,7 +26,7 @@ function kysyNimet() {
             }
         }
 
-        // Jos käyttäjä painoi peruuta, lopetetaan pääsilmukkakin
+        // Jos käyttäjä painoi peruuta, lopetetaan myös pääsilmukka
         if (nimi === null) {
             break;
         }
